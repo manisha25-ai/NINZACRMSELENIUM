@@ -36,7 +36,7 @@ public class CreatecampaignTest extends Baseclass {
 		  String Targetsize  = eu.togetdatafromexcelfiles("Sheet1", 1, 3);
 		  String Toast_msg = eu.togetdatafromexcelfiles("Sheet1", 1, 5);
 	
-
+		  Thread.sleep(3000);
 		
 Campaign camp=new Campaign(driver);
 

@@ -41,7 +41,7 @@ public class CreateProductTest extends Baseclass {
 		  System.out.println(Quantity);
 	
 		  
-					
+					Thread.sleep(3000);
 				
 					homepage hp=new homepage(driver);
 					hp.getProduct().click();
